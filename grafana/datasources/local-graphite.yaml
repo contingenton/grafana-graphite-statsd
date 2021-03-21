@@ -1,6 +1,13 @@
+# # config file version
+apiVersion: 1
+
 datasources:
 - name: Graphite
   type: graphite
   url: http://graphite:8080
   access: proxy
   isDefault: true
+- name: Prometheus
+  type: prometheus
+  url: http://prometheus:9090
+  access: proxy
