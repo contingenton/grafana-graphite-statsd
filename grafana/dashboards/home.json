@@ -70,8 +70,10 @@
         }
       ],
       "thresholds": [],
+      "timeFrom": null,
       "timeRegions": [],
-      "title": "Hit Count - Graphite",
+      "timeShift": null,
+      "title": "Count of Requests - Graphite",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -165,7 +167,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Count of Requests - Graphite",
+      "title": "Sumarize - Graphite",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -354,7 +356,9 @@
         }
       ],
       "thresholds": [],
+      "timeFrom": null,
       "timeRegions": [],
+      "timeShift": null,
       "title": "Rate - Prometheus",
       "tooltip": {
         "shared": true,
